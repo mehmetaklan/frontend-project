@@ -1,0 +1,84 @@
+.footer{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba($color-black, $alpha: 0.5);
+    @media screen and (max-width:480px) {
+        height: 90vh;
+       }
+    &__top{
+        flex: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        @media screen and (max-width:768px) {
+         padding: 0 0 2rem 0;
+        }
+        
+        @media screen and (max-width:480px) {
+            flex: 1;
+            padding: 0;
+        }
+        
+    }
+    &__bottom{
+        flex: 1;
+        text-align: center;
+        color: $color-white;
+        font-weight: 400;
+        @media screen and (max-width:480px) {
+            flex: 0 10%;
+           }
+    }
+    &__contact{
+        width: 60%;
+        height: 50%;
+        border-bottom: 2px solid $color-primary;
+        @media screen and (max-width:768px) {
+         display: flex;
+         align-items: center;
+        }
+    }
+    
+    &__links{
+        width: 60%;
+        height: 50%;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid $color-primary;
+        
+        @media screen and (max-width:768px) {
+         width: 80%;
+        }
+
+        @media screen and (max-width:768px) {
+         width: 95%;
+        }
+        @media screen and (max-width:480px) {
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 40%;
+            justify-content: space-between;
+           }
+    }
+    &__container{
+        flex: 15%;
+        @media screen and (max-width:480px) {
+            flex: 50%;
+            text-align: center;
+           }
+    }
+    &__list{
+        line-height: 1.5;
+    &__item{
+        color: $color-primary;
+    }
+    &__header{
+        color:$color-white;
+        font-weight: 400;
+    }
+}
+}

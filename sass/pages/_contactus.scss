@@ -1,0 +1,20 @@
+.contactus{
+    height: 100vh;
+    &__container{
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+    &__left{
+        flex: 0 60%;
+    }
+    
+    &__right{
+        height: 60%;
+        background-color: $color-heading;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex:0 35%;
+    }
+}

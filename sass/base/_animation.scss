@@ -1,0 +1,11 @@
+@keyframes nav-bottom-anim{
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 2rem;
+        opacity: 1;
+        visibility: visible;    
+    }
+}
